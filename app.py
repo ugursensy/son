@@ -169,4 +169,4 @@ if st.button("Tahmini Fiyatı Hesapla"):
     if neighborhood_Luxury:
         prediction *= 1.05
 
-    st.success(f"💰 Tahmini Ev Fiyatı: ₺{round(prediction):,}")
+    st.success(f"💰 Tahmini Ev Fiyatı: ${round(prediction):,}")
